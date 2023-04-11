@@ -2,15 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-
- * _strdup - duplicate to new memory space location
-
- * @str: char
-
- * Return: 0
-
+ * _strdup - function that houses the parameter
+ * @str: the parameter
+ *
+ * Return: always return 0
  */
-
 char *_strdup(char *str)
 {
 	char *aaa;
